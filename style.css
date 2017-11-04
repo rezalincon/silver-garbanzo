@@ -1,0 +1,264 @@
+
+#menu{
+	color:#6C6C6C;
+	transition: all ease .5s;
+	margin-top:7%;
+}
+#midmenu{
+	color:#6C6C6C;
+	transition: all ease .5s;
+	text-align:center;
+}
+
+	
+h1{
+	color:#6C6C6C;
+	margin-left:4%;
+	padding-top:5px;
+}
+
+.menu2{
+	display:inline;
+	text-decoration:none;
+	color:#6C6C6C;
+	
+	transition: all ease .5s;
+}
+.mid{
+	display:inline;
+	text-decoration:none;
+	color:#6C6C6C;
+	transition: all ease .5s;
+	padding:10px;
+}
+.a1{
+	color:#6C6C6C;
+	text-decoration:none;
+	border: 1px solid #EEEEEE;
+	padding:10px;
+	
+}
+.a2{
+	
+	text-decoration:none;
+	color:#333333;
+	
+}
+.a3{
+	
+	text-decoration:none;
+	color:#6C6C6C;
+	
+}
+.a2:hover{
+	color:#FE6600;
+	text-decoration:none;
+	transition:0.5s;
+}
+
+.input{
+	border:1px solid #EEEEEE;
+	margin-top:11%;
+	font-size:16px;
+	width:240px;
+	height:37px;
+}
+
+.a1:hover{
+	color:#00FF00;
+	text-decoration:none;
+	
+}
+.a3:hover{
+	color:#00FF00;
+	text-decoration:none;
+	
+}
+.button2 {
+    background-color:color:#6C6C6C; 
+    color: black; 
+    border: 2px solid white;
+	width:40px;
+	height:35px;
+	margin-top:40px;
+	
+}
+.button2:hover{
+	color:#6BCE04;
+}
+
+.button1 {
+    background-color:#6BCE04; 
+    color: white; 
+    border: 2px solid white;
+	width:120px;
+	height:35px;
+	margin-top:40px;
+	margin-left:30px;
+}
+
+.button1:hover {
+    background-color:#333333;
+    color:#6BCE04;
+}
+
+
+#container {
+    width:100%;
+    text-align:center;
+	
+}
+
+#left {
+    float:left;
+    width:260px;
+	margin-left:90px;
+	position:relative;
+	
+}
+.absolute-text {
+	
+	position:absolute;
+	bottom:0; 
+	font-size:28px;
+	background:rgba(251,251,251,0.5);
+	
+	}
+		
+
+#center {
+    display: inline-block;
+    position:relative;
+	margin-left:16px;
+    width:260px;
+	
+}
+
+#right {
+    float:right;
+	margin-right:100px;
+    width:260px;
+	position:relative;
+	
+}
+#stock{
+	height:40px;
+	width:100%;
+	font-size:17px;
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+#about{
+	margin-top:110px;
+	text-align:center;
+}
+.button4 {
+    background-color:black; 
+    color: white; 
+    border: 2px solid white;
+	width:180px;
+	height:55px;
+	
+}
+.button4:hover{
+	background-color:#6BCE04; 
+    color: black;
+}
+#shopinsta{
+	background-color:#ff9999;
+	height:323px;
+}
+#shopinsta .text {
+position:relative;
+bottom:65%;
+left:35%;
+visibility:hidden;
+text-decoration:none;
+color:white;
+font-size:40px;
+}
+#a4{
+	text-decoration:none;
+}
+
+#a4:hover .text {
+visibility:visible;
+color:white;
+text-decoration:none;
+}
+.hover{
+	opacity:1;
+}
+#shopinsta:hover .hover{
+	opacity:.5;
+	transition:0.5s;
+}
+.black{
+	background-color:black;
+	margin-top: 100px;
+}
+.a5{
+	text-decoration:none;
+	color:gray;
+}
+.li5{
+	list-style-type:none; 
+	padding:7px;
+}
+#social{
+	
+}
+.social2{
+	list-style:none;
+	display:inline;
+	border-radius:20%;
+	padding:8px;
+	border: 2px solid white;
+	font-size:20px;
+	color:white;
+}
+.social2:hover{
+	color:#FF6600;
+	transition:.5s;
+}
+.alast{
+	color:#FF6600;
+}
+.a5:hover{
+	color:#FF6600;
+	text-decoration:none;
+}
+.alast:hover{
+	color:white;
+	transition:.4s;
+}
+.full{
+	margin:0px;
+	padding:0px;
+}
+#slider{
+	width:100%;
+	height:480px;
+	overflow:hidden;
+}
+#cart{
+	z-index:9999999;
+	position: fixed;
+	bottom:300px;
+	left:1020px;
+}
+#carta{
+	
+	
+	border-radius:30%;
+	padding:9px;
+	border: 2px solid gray;
+	font-size:30px;
+	color:#6BCE04;
+}
+#carta:hover{
+	color:#FF6600;
+	
+	transition:.5s;
+}
